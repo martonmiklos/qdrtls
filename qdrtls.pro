@@ -25,12 +25,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         qdrtls.cpp \
-    bleconstants.cpp
+    bleconstants.cpp \
+    tagnode.cpp \
+    networknode.cpp
 
 HEADERS += \
         qdrtls.h \
         qdrtls_global.h \ 
-    bleconstants.h
+    bleconstants.h \
+    tagnode.h \
+    networknode.h
 
 unix {
     target.path = /usr/lib
